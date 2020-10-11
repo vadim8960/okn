@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="ROS">
+      <CLASSES>
+        <root url="file://$USER_HOME$" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="workspace">
+      <CLASSES />
+      <SOURCES />
+    </library>
+  </component>
+</project>
