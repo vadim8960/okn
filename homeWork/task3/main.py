@@ -1,9 +1,12 @@
+import math
 
 
 def main():
-    arr = [1, 2, 3, 4, -5, -6, 7, 8, 9, 5]
+    arr = [3, 2, 1, -5, 4, -6, 7, 5, 9, 8]
+    print("Start array: {}".format(arr))
     print("Sum negative elements: {}".format(sum([i if i < 0 else 0 for i in arr])))
-
+    print("Count elements between min and max: {}".format(int(math.fabs(arr.index(max(arr)) - arr.index(min(arr)))) - 1))
+    print("Sorted array: {}".format(sorted(arr)))
     pass
 
 
