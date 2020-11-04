@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vadim/programs/python/okn/task2_cpp_1/main.cpp" "/home/vadim/programs/python/okn/task2_cpp_1/cmake-build-debug/CMakeFiles/task2_cpp_1.dir/main.cpp.o"
+  "/home/vadim/programs/okn/classWork/task2_cpp_1/main.cpp" "/home/vadim/programs/okn/classWork/task2_cpp_1/cmake-build-debug/CMakeFiles/task2_cpp_1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

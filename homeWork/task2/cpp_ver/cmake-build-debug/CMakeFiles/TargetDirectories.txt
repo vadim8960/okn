@@ -1,0 +1,3 @@
+/home/vadim/programs/okn/homeWork/task2/cpp_ver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vadim/programs/okn/homeWork/task2/cpp_ver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vadim/programs/okn/homeWork/task2/cpp_ver/cmake-build-debug/CMakeFiles/cpp_ver.dir

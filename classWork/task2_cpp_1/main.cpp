@@ -3,6 +3,32 @@
 #include <algorithm>
 #include <vector>
 
+void MxV(const double * A, const double * b, unsigned rows, unsigned cols, double * r)  // r = A * b
+{const double * pb, * pbfin = b + cols, * rfin = r + rows;
+    for(; r != rfin; r++)
+    {*r = 0;
+        pb = b;
+        for(; pb != pbfin; pb++, A++)
+            *r += *A * *b;
+    }
+}
+
+void MxM(const double * A, const double * B, unsigned rows, unsigned cols, unsigned cols2, double * С)
+{
+    double * Bcopy = (double *)malloc(sizeof(double) * cols2 * cols );
+    for (int i = 0; i < cols; ++i)
+        for (int j = 0; j < cols2; ++j)
+            *(Bcopy + j * cols2 + i) = *(B + i * cols + j);
+
+    const double * Bend = Bcopy + cols * cols2 + 1;
+    for (; Bcopy != Bend; Bcopy += cols2, С += cols2) {
+        MxV(A, Bcopy, rows, cols, С);
+    }
+
+    free(Bcopy);
+}
+
+
 int main() {
     std::string s1;
     std::string s2;
